@@ -14,7 +14,7 @@ export default function HeroSection() {
 
   const [typedText, setTypedText] = useState("")
   const [typingDone, setTypingDone] = useState(false)
-  const fullText = "@NullIDBot verify @eth_foundation"
+  const fullText = "@NullIDBot verify @Bitcoin"
   const typingSpeed = 100
 
   useEffect(() => {
@@ -85,7 +85,7 @@ export default function HeroSection() {
                     E
                   </div>
                   <div>
-                    <div className="font-medium">@eth_foundation</div>
+                    <div className="font-medium">@Bitcoin</div>
                     <div className="text-xs text-muted-foreground">last seen recently</div>
                   </div>
                 </div>
@@ -97,7 +97,7 @@ export default function HeroSection() {
                 <div className="flex items-start gap-2">
                   <div className="w-8 h-8 rounded-full bg-blue-100 dark:bg-blue-900 flex items-center justify-center text-blue-600 dark:text-blue-300 font-bold">E</div>
                   <div className="bg-gray-100 dark:bg-gray-700 rounded-2xl rounded-tl-sm p-3 max-w-[85%] text-left">
-                    <p className="text-sm">Hey! I'm from the Ethereum team. Let me know if you have any questions.</p>
+                    <p className="text-sm">Hey! I'm from the Bitcoin team. Let me know if you have any questions.</p>
                     <div className="text-xs text-right mt-1 text-muted-foreground">12:42 PM</div>
                   </div>
                 </div>
@@ -113,11 +113,11 @@ export default function HeroSection() {
                   >
                     <div className="flex items-center gap-2 mb-1">
                       <span className="text-green-500 text-lg">✅</span>
-                      <span className="text-white">@eth_foundation <span className='text-blue-400 font-semibold'>is</span> verified</span>
+                      <span className="text-white">@Bitcoin <span className='text-blue-400 font-semibold'>is</span> verified</span>
                     </div>
                     <div className="flex items-center gap-2 mb-1">
                       <span className="text-blue-400">🏢</span>
-                      <span className="text-white">Company: ethereum.org</span>
+                      <span className="text-white">Company: Bitcoin.org</span>
                     </div>
                     <div className="flex items-center gap-2 mb-1">
                       <span className="text-purple-400">🔗</span>
@@ -125,7 +125,7 @@ export default function HeroSection() {
                     </div>
                     <div className="flex items-center gap-2">
                       <span className="text-yellow-400">⚡</span>
-                      <span className="text-white">Verified <span className='text-blue-400'>on</span> Ethereum</span>
+                      <span className="text-white">Verified <span className='text-blue-400'>on</span> Bitcoin</span>
                     </div>
                   </motion.div>
                 </div>
