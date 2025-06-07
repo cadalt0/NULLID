@@ -1,0 +1,52 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary: #6b7fd7;
+  --primary-dark: #5a6dc4;
+  --primary-light: #8c9de6;
+  --accent: #8b5cf6;
+  --success: #059669;
+  --warning: #d97706;
+  --error: #dc2626;
+}
+
+@layer base {
+  body {
+    @apply antialiased font-sans text-gray-900 bg-gray-50;
+  }
+  
+  .dark body {
+    @apply text-gray-100 bg-black;
+  }
+}
+
+/* Animation keyframes */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes slideUp {
+  from { transform: translateY(10px); opacity: 0; }
+  to { transform: translateY(0); opacity: 1; }
+}
+
+@keyframes pulse {
+  0%, 100% { opacity: 0.6; }
+  50% { opacity: 1; }
+}
+
+/* Custom animation classes */
+.animate-fadeIn {
+  animation: fadeIn 0.3s ease-in-out;
+}
+
+.animate-slideUp {
+  animation: slideUp 0.4s ease-out;
+}
+
+.animate-pulse {
+  animation: pulse 2s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}
