@@ -34,6 +34,10 @@ NullID is a privacy-first identity verification system for Telegram that helps s
 - Build trust in professional networks
 - Protect against identity theft and scams 
 
+Smart contract: https://blockscout-passet-hub.parity-testnet.parity.io/address/0x8aeb43189Bd1d8e4Bbd8e2496A523Ff68d890D08
+
+Posting proof : https://blockscout-passet-hub.parity-testnet.parity.io/tx/0xff6d996f2dc2264b391f39995819861b08f28de1415f5ccb69377a813092fa6a
+
 
 TEST PROOF GENERATION AND POSTING RAW DATA 
 ``` Generating zk proof...
