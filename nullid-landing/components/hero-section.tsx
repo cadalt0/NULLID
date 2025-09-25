@@ -125,7 +125,7 @@ export default function HeroSection() {
                     </div>
                     <div className="flex items-center gap-2">
                       <span className="text-yellow-400">⚡</span>
-                      <span className="text-white">Verified <span className='text-blue-400'>on</span> Bitcoin</span>
+                      <span className="text-white">Verified <span className='text-blue-400'>on</span> ZkVerify</span>
                     </div>
                   </motion.div>
                 </div>
